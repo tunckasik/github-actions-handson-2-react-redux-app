@@ -27,4 +27,4 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: bronze/app:latest
+        tags: bronzeACR.azurecr.io/bronze/app:latest
